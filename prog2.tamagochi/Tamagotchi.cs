@@ -2,7 +2,7 @@ using System.ComponentModel;
 
 public class Tamagotchi
 {
-    public string Name;
+    public string Name = "";
 
     private int hunger = 0;
     private int boredom = 0;
