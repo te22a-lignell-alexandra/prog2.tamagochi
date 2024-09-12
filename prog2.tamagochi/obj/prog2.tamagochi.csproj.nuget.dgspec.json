@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\alexandra.lignell\\Documents\\Programmering\\C#\\prog2.tamagochi\\prog2.tamagochi\\prog2.tamagochi.csproj": {}
+    "c:\\Users\\alexandra.lignell\\Documents\\Programmering\\C#\\prog2.tamagochi\\prog2.tamagochi\\prog2.tamagochi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\alexandra.lignell\\Documents\\Programmering\\C#\\prog2.tamagochi\\prog2.tamagochi\\prog2.tamagochi.csproj": {
+    "c:\\Users\\alexandra.lignell\\Documents\\Programmering\\C#\\prog2.tamagochi\\prog2.tamagochi\\prog2.tamagochi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\alexandra.lignell\\Documents\\Programmering\\C#\\prog2.tamagochi\\prog2.tamagochi\\prog2.tamagochi.csproj",
+        "projectUniqueName": "c:\\Users\\alexandra.lignell\\Documents\\Programmering\\C#\\prog2.tamagochi\\prog2.tamagochi\\prog2.tamagochi.csproj",
         "projectName": "prog2.tamagochi",
-        "projectPath": "C:\\Users\\alexandra.lignell\\Documents\\Programmering\\C#\\prog2.tamagochi\\prog2.tamagochi\\prog2.tamagochi.csproj",
+        "projectPath": "c:\\Users\\alexandra.lignell\\Documents\\Programmering\\C#\\prog2.tamagochi\\prog2.tamagochi\\prog2.tamagochi.csproj",
         "packagesPath": "C:\\Users\\alexandra.lignell\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\alexandra.lignell\\Documents\\Programmering\\C#\\prog2.tamagochi\\prog2.tamagochi\\obj\\",
+        "outputPath": "c:\\Users\\alexandra.lignell\\Documents\\Programmering\\C#\\prog2.tamagochi\\prog2.tamagochi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

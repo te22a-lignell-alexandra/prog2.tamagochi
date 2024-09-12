@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "prog2.tamagochi/1.0.0": {
+        "runtime": {
+          "prog2.tamagochi.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "prog2.tamagochi/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

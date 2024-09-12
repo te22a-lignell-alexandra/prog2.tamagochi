@@ -1,0 +1,15 @@
+c:\Users\alexandra.lignell\Documents\Programmering\C#\prog2.tamagochi\prog2.tamagochi\bin\Debug\net8.0\prog2.tamagochi.exe
+c:\Users\alexandra.lignell\Documents\Programmering\C#\prog2.tamagochi\prog2.tamagochi\bin\Debug\net8.0\prog2.tamagochi.deps.json
+c:\Users\alexandra.lignell\Documents\Programmering\C#\prog2.tamagochi\prog2.tamagochi\bin\Debug\net8.0\prog2.tamagochi.runtimeconfig.json
+c:\Users\alexandra.lignell\Documents\Programmering\C#\prog2.tamagochi\prog2.tamagochi\bin\Debug\net8.0\prog2.tamagochi.dll
+c:\Users\alexandra.lignell\Documents\Programmering\C#\prog2.tamagochi\prog2.tamagochi\bin\Debug\net8.0\prog2.tamagochi.pdb
+c:\Users\alexandra.lignell\Documents\Programmering\C#\prog2.tamagochi\prog2.tamagochi\obj\Debug\net8.0\prog2.tamagochi.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\alexandra.lignell\Documents\Programmering\C#\prog2.tamagochi\prog2.tamagochi\obj\Debug\net8.0\prog2.tamagochi.AssemblyInfoInputs.cache
+c:\Users\alexandra.lignell\Documents\Programmering\C#\prog2.tamagochi\prog2.tamagochi\obj\Debug\net8.0\prog2.tamagochi.AssemblyInfo.cs
+c:\Users\alexandra.lignell\Documents\Programmering\C#\prog2.tamagochi\prog2.tamagochi\obj\Debug\net8.0\prog2.tamagochi.csproj.CoreCompileInputs.cache
+c:\Users\alexandra.lignell\Documents\Programmering\C#\prog2.tamagochi\prog2.tamagochi\obj\Debug\net8.0\prog2.tamagochi.sourcelink.json
+c:\Users\alexandra.lignell\Documents\Programmering\C#\prog2.tamagochi\prog2.tamagochi\obj\Debug\net8.0\prog2.tamagochi.dll
+c:\Users\alexandra.lignell\Documents\Programmering\C#\prog2.tamagochi\prog2.tamagochi\obj\Debug\net8.0\refint\prog2.tamagochi.dll
+c:\Users\alexandra.lignell\Documents\Programmering\C#\prog2.tamagochi\prog2.tamagochi\obj\Debug\net8.0\prog2.tamagochi.pdb
+c:\Users\alexandra.lignell\Documents\Programmering\C#\prog2.tamagochi\prog2.tamagochi\obj\Debug\net8.0\prog2.tamagochi.genruntimeconfig.cache
+c:\Users\alexandra.lignell\Documents\Programmering\C#\prog2.tamagochi\prog2.tamagochi\obj\Debug\net8.0\ref\prog2.tamagochi.dll
