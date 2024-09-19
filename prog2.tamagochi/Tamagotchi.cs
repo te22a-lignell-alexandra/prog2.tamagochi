@@ -17,15 +17,29 @@ public class Tamagotchi
     }
     public void Hi()
     {
-        int i = generator.Next(words.Count);
-        Console.WriteLine(words[i]);
+        string text = "\nYou: Hi!";
+        Type(text);
+
+        if (words.Count == 0) 
+        {
+            text = $"{Name}: .....\n({Name} stares at you in betrayal and boredom. How could you mock them this way? You fowl person. They can't talk yet!)";
+            Type(text);
+            boredom += 3;
+        }
+        else
+        { 
+            int i = generator.Next(words.Count);
+            text = $"{Name}: " + words[i] + ".";
+            Type(text);
+        }
 
         ReduceBoredom();
     }
     public void TeachWord()
     {
         Console.Clear();
-        Console.WriteLine($"Which word do you want to teach {Name}");
+        string text = $"Which word do you want to teach {Name}";
+        Type(text);
         string newWord = "";
         while (newWord.Length == 0)
         {
@@ -48,24 +62,47 @@ public class Tamagotchi
     }
     public void PrintStats()
     {
-        Console.WriteLine($"hunger: {hunger}");
-        Console.WriteLine($"boredom: {boredom}");
-        if (isAlive == true) Console.WriteLine($"Is alive");
-        else Console.WriteLine("Is dead");
+        string text = $"\n{Name}'s current stats:";
+        Type(text);
+        text = $"hunger: {hunger}";
+        Type(text);
+        text = $"boredom: {boredom}";
+        Type(text);
+        text = "vocabulary: ";
+        Type(text);
+        for (int i = 0; i < words.Count; i++)
+        {
+            text = i+1 + ". " + words[i];
+            Type(text);
+        }
+
+        if (isAlive == true) 
+        {
+            text = $"{Name} is alive";
+            Type(text);
+        }
+        else 
+        {
+            text = $"{Name} is dead";
+            Type(text);
+        }
     }
     public void Warning()
     {
         if (hunger > 7 || boredom > 7)
         {
             Console.ForegroundColor = ConsoleColor.Red;
-            
+            string text = "";
+
             if (hunger > 7)
             {
-                Console.WriteLine("Your tamagotchi dies if hunger reaches 10");
+                text = "Your tamagotchi dies if hunger reaches 10";
+                Type(text);
             }
             if (boredom > 7)
             {
-                Console.WriteLine("Your tamagotchi dies if boredom reaches 10");
+                text = "Your tamagotchi dies if boredom reaches 10";
+                Type(text);
             }
 
             Console.ForegroundColor = ConsoleColor.Gray;
@@ -83,7 +120,8 @@ public class Tamagotchi
 
     public void NameYourFriend()
     {
-        Console.WriteLine("What is your tamagotchi called?");
+        string text = "What is your tamagotchi called?";
+        Type(text);
         while (Name.Length == 0)
         {
         Name = Console.ReadLine();
@@ -93,21 +131,28 @@ public class Tamagotchi
     }
     public void Interact()
     {
-        Console.WriteLine("Interact!");
-        Console.WriteLine($"1. Chat with {Name} \n2. Teach {Name} a new word \n3. Feed {Name} \n4. Do Nothing");
+        string text = "Interact!";
+        Type(text);
+        text = $"1. Chat with {Name} \n2. Teach {Name} a new word \n3. Feed {Name} \n4. Do Nothing";
+        Type(text);
         string choice = Console.ReadLine();
 
     while (choice!="1" && choice!="2" && choice!="3" && choice!="4")
     // Borde gå att göra bättre på något sätt
     {
-        Console.WriteLine("Write 1, 2, 3 or 4");
+        text = "Write 1, 2, 3 or 4";
+        Type(text);
         choice = Console.ReadLine();
     }
 
     if (choice == "1") Hi();
     else if (choice == "2") TeachWord();
     else if (choice == "3") Feed();
-    else if (choice == "4") Console.WriteLine("Really? K then.");
+    else if (choice == "4") 
+    {
+        text = "......uuuh okay then. Moving on.";
+        Type(text);
+    }
     }
 
     public void InteractEnd()
@@ -121,9 +166,17 @@ public class Tamagotchi
     public void EndScene()
     {
         Console.Clear();
-        Console.WriteLine($"{Name} has ");
+        string text = $"{Name} has tragically past away...because of you. Do you feel bad?......... Well you should. Game Over.";
+        Type(text);
+    }
+
+    private void Type(string text) /*Typing effect on text parts*/
+    {
+        foreach (char i in text)
+        {
+            Console.Write(i);
+            Thread.Sleep(generator.Next(30, 80));
+        }
+        Console.Write("\n");
     }
 }
-
-// foreach (char i in STRING)
-// {console.write(i)    thread.sleep(nån tid);}

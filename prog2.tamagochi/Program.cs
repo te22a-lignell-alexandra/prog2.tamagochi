@@ -9,3 +9,6 @@ while (tamagotchi.GetAlive() == true)
     tamagotchi.Interact();
     tamagotchi.InteractEnd();    
 }
+
+tamagotchi.EndScene();
+Console.ReadLine();
